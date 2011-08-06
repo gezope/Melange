@@ -1,9 +1,12 @@
 console.log "Hello"
 console.log 'Heya'
 
+console.log do 'Cool!'
 console.log (-> "Wicked")()
+
 lol = -> "Muhaha"
 console.log lol()
+
 # rare
 console.log do lol
 
